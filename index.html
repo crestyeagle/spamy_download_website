@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Page</title>
+</head>
+<body>
+    <h1>Download Your Software</h1>
+    <p>Click the link below to download the software:</p>
+    <a id="downloadLink" href="#" download>Download Software</a>
+
+    <script>
+        // Path to your .exe file
+        const filePath = 'spamy.exe';
+
+        // Set the href attribute to the file path
+        document.getElementById('downloadLink').setAttribute('href', filePath);
+    </script>
+</body>
+</html>
